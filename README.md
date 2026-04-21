@@ -1,8 +1,10 @@
 # SiaStory
 
-SiaStory is an iPad-first SwiftUI learning app built around my daughter, Sia, as the main character. Her favorite dolls, family members, book characters, and animated characters form teams and compete in playful challenges. Each challenge turns into a short, newly generated story.
+SiaStory is an iPad-first SwiftUI learning app built around my daughter, Sia, as the main character. Her favorite dolls, family members, and book characters form teams and compete in playful challenges. Each character has stored traits such as personality, strengths, favorite things, and weaknesses.
 
-The core idea is simple: make reading and studying feel like part of a story-driven game. Sia wants to see what happens next, so she has a reason to read one more paragraph and solve one more question.
+The player builds Sia's team and enters different competitions: cleaning the house, cooking pasta, ski relays, building snowmen, science fairs, treasure hunts, and many more. When a competition starts, the app sends the selected characters and competition details to the backend. An LLM then generates a short Norwegian story based on that exact matchup.
+
+Even the same competition can produce a different story depending on the team composition. This makes the app replayable and gives Sia a reason to keep reading: she wants to know how her characters performed this time.
 
 ## Screenshots
 
@@ -11,14 +13,6 @@ The core idea is simple: make reading and studying feel like part of a story-dri
 | Home | Competition | Story | Training |
 | --- | --- | --- | --- |
 | ![Home screen](docs/screenshots/home.png) | ![Competition screen](docs/screenshots/competition.png) | ![Story screen](docs/screenshots/story.png) | ![Training screen](docs/screenshots/training.png) |
-
-## Key Idea
-
-SiaStory has a roster of characters centered around Sia. The characters include her dolls, her parents, and characters from books and animation. Each character has stored traits such as personality, strengths, favorite things, and weaknesses.
-
-The player builds Sia's team and enters different competitions: cleaning the house, cooking pasta, ski relays, building snowmen, science fairs, treasure hunts, and many more. When a competition starts, the app sends the selected characters and competition details to the backend. An LLM then generates a short Norwegian story based on that exact matchup.
-
-Even the same competition can produce a different story depending on the team composition. This makes the app replayable and gives Sia a reason to keep reading: she wants to know how her characters performed this time.
 
 ## How It Works
 
@@ -55,8 +49,6 @@ SiaStory is organized around four main parts:
 - **SwiftUI app**: Provides the home screen, competition flow, story reader, training page, and settings.
 - **Backend API**: Handles LLM story generation, progress sync, and question statistics.
 
-The in-app user-facing text is written in Norwegian so Sia can read it herself. Some internal data descriptions and prompt-building notes are written in Korean for development.
-
 ## Tech Stack
 
 - SwiftUI
@@ -68,5 +60,5 @@ The in-app user-facing text is written in Norwegian so Sia can read it herself. 
 
 ## Repository Note
 
-This is a personal app and is not published on the App Store. The actual app repository is private because it includes personal assets and private backend configuration.
+This is a personal app and is not published on the App Store.
 
