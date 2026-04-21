@@ -8,11 +8,11 @@ Even the same competition can produce a different story depending on the team co
 
 ## Screenshots
 
-> Replace these placeholders with real screenshots in the public repository.
-
-| Home | Competition | Story | Training |
-| --- | --- | --- | --- |
-| ![Home screen](docs/screenshots/home.png) | ![Competition screen](docs/screenshots/competition.png) | ![Story screen](docs/screenshots/story.png) | ![Training screen](docs/screenshots/training.png) |
+| Home | Competition |
+| --- | --- |
+| [![Home screen](screenshots/home.png)](screenshots/home.png) | [![Competition screen](screenshots/competition.png)](screenshots/competition.png) |
+| Story | Training |
+| [![Story screen](screenshots/story.png)](screenshots/story.png) | [![Training screen](screenshots/training.png)](screenshots/training.png) |
 
 ## How It Works
 
@@ -61,4 +61,3 @@ SiaStory is organized around four main parts:
 ## Repository Note
 
 This is a personal app and is not published on the App Store.
-
