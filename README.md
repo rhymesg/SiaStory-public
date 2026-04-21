@@ -1,18 +1,21 @@
 # SiaStory
 
-SiaStory is an iPad-first SwiftUI learning app built around my daughter, Sia, as the main character. Her favorite dolls, family members, and book characters form teams and compete in playful challenges. Each character has stored traits such as personality, strengths, favorite things, and weaknesses.
+SiaStory is an learning app for iPad built around my daughter, Sia, as the main character. Her favorite dolls, family members, and book characters form teams and compete in playful challenges. Each character has stored traits such as personality, strengths, favorite things, and weaknesses.
+
+<table>
+  <tr>
+     <td><a href="screenshots/home.png"><img src="screenshots/home.png" alt="Home screen"></a></td>
+     <td><a href="screenshots/competition.png"><img src="screenshots/competition.png" alt="Competition screen"></a></td>
+  </tr>
+  <tr>
+     <td><a href="screenshots/story.png"><img src="screenshots/story.png" alt="Story screen"></a></td>
+     <td><a href="screenshots/training.png"><img src="screenshots/training.png" alt="Training screen"></a></td>
+  </tr>
+</table>
 
 The player builds Sia's team and enters different competitions: cleaning the house, cooking pasta, ski relays, building snowmen, science fairs, treasure hunts, and many more. When a competition starts, the app sends the selected characters and competition details to the backend. An LLM then generates a short Norwegian story based on that exact matchup.
 
 Even the same competition can produce a different story depending on the team composition. This makes the app replayable and gives Sia a reason to keep reading: she wants to know how her characters performed this time.
-
-## Screenshots
-
-| Home | Competition |
-| --- | --- |
-| [![Home screen](screenshots/home.png)](screenshots/home.png) | [![Competition screen](screenshots/competition.png)](screenshots/competition.png) |
-| Story | Training |
-| [![Story screen](screenshots/story.png)](screenshots/story.png) | [![Training screen](screenshots/training.png)](screenshots/training.png) |
 
 ## How It Works
 
