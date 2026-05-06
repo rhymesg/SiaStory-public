@@ -59,7 +59,7 @@ SiaStory is organized around four main parts:
 - Node.js / Express backend
 - OpenAI API for story generation
 - Neon PostgreSQL for progress sync
-- Local cache for offline-friendly progress handling
+- Local files for on-device backup and offline progress recovery
 
 ## Repository Note
 
